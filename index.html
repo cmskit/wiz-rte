@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<script src="js/jquery.juirte.js"></script>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.juirte.css" />
+<style type="text/css">
+	body{ font-family: arial, helvetica; font-size: 10pt}
+</style>
+</head>
+<body>
+
+<textarea id="juirte_editor1">
+	<h3>jUIRTE</h3>
+	<h4>A really simple (and light) Rich Text Editor (wysiwyg) for Jquery UI</h4>
+	<b>Featuring:</b>
+	<ul>
+		<li>Buttons &amp; Buttonsets</li>
+		<li>Expandable</li>
+		<li>Themeroller ready!</li>
+		<li>Cross-browser</li>
+		<li>Very,very,very,very SMALL!</li>
+	</ul>
+	<b>To-Do</b>
+	<ul>
+		<li>fix issues w/o spacers</li>
+	</ul>
+
+	<b>Example</b>
+	<blockquote>$(document).ready(function(){
+		<blockquote>$("textarea").juirte();</blockquote>
+	});</blockquote>
+</textarea>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('textarea').juirte({
+		'width': '600px', 
+		'height': '250px' 
+		//	'stylesheet': "http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css"
+		});
+});
+</script>
+</body>
+</html>
