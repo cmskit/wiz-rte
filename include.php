@@ -42,7 +42,7 @@ else {$('head').append( $("<link rel='stylesheet' href='wizards/rte/css/jquery.j
 			height: '250px',
 			buttons: butts,
 			language: [['html', '<?php echo L('Toggle HTML')?>'],['insertimage', '<?php echo L('Insert Image')?>'],['inserturl', '<?php echo L('Insert URL')?>'],['paragraph', '<?php echo L('Paragraph')?>'],['address', '<?php echo L('Address')?>'],['heading', '<?php echo L('Heading')?>'],['bgcolor', '<?php echo L('Background Color')?>'],['fontcolor', '<?php echo L('Font Color')?>'],['fontsize', '<?php echo L('Font Size')?>'],['font', '<?php echo L('Font')?>'],['paragraph', '<?php echo L('Paragraph')?>'],['link', '<?php echo L('Link')?>'],['removelink', '<?php echo L('Remove Link')?>'],['italic', '<?php echo L('Italic')?>'],['bold', '<?php echo L('Bold')?>'],['underline', '<?php echo L('Underline')?>'],['strike', '<?php echo L('Strike')?>'],['hr', '<?php echo L('Horizontal Rule')?>'],['ol', '<?php echo L('Ordered List')?>'],['ul', '<?php echo L('Unordered List')?>'],['center', '<?php echo L('Center')?>'],['left', '<?php echo L('Left')?>'],['full', '<?php echo L('Full')?>'],['right', '<?php echo L('Right')?>'],['indent', '<?php echo L('Indent')?>'],['outdent', '<?php echo L('Outdent')?>'],['superscript', '<?php echo L('Superscript')?>'],['subscript', '<?php echo L('Subscript')?>'],['rm', '<?php echo L('Remove Formating')?>']],
-			stylesheet: '../vendor/cmskit/lib-jquery-ui/themes/'+settings.interface.theme[settings.interface.theme.length-1]+'/jquery-ui.css'
+			stylesheet: '../vendor/cmskit/jquery-ui/themes/'+settings.interface.theme[settings.interface.theme.length-1]+'/jquery-ui.css'
 		});
 	};
 })( jQuery );
